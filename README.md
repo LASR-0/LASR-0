@@ -40,6 +40,11 @@
 
 ---
 
+## 🚀 Recent Project
+
+## 🔧 Palet Colour Picker
+---
+
 ## 🚀 Current Projects
 
 ## 🔧 Code Snippet Manager
@@ -54,7 +59,7 @@ Built with a modern and lightweight stack:
 
 **Status:** Incomplete but close to a functional first release 🚧  
 
-![Code Snippet Manager Demo](assets/snippet-manager-demo.gif)
+![Code Snippet Manager Demo](CSB_gif.gif)
 
 ---
 
@@ -74,12 +79,12 @@ Core features in development include:
 
 **Development:**  
 - **Team size:** 2  
-  - I’m responsible for all art and sprites (world tiles, NPCs, mobs, animations, etc.)  
-  - My partner handles game development, systems, and mechanics  
+  - I’m responsible for all art and sprites (world tiles, NPCs, mobs, animations, etc.), Core Game Functionality Programming, UI and UX design  
+  - My partner handles game development, systems, and mechanics, mob mechanics, boss and dungeon design.  
 - **Status:** Early development 🌱
 
 
-
+![MoonRoot Banner](moonrootbanner.png)
 ---
 
 ## 🎨 Design & Code Style
