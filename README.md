@@ -18,39 +18,66 @@
 
 ---
 
+## About Me:
+
+
+---
+
 ### :hammer_and_wrench: Languages and Tools :
 
 <div>
-  <img src="https://github.com/devicons/devicon/blob/master/icons/java/java-original-wordmark.svg" title="Java" alt="Java" width="40" height="40"/> 
-  <img src="https://github.com/devicons/devicon/blob/master/icons/react/react-original-wordmark.svg" title="React" alt="React" width="40" height="40"/> 
-  <img src="https://github.com/devicons/devicon/blob/master/icons/spring/spring-original-wordmark.svg" title="Spring" alt="Spring" width="40" height="40"/> 
-  <img src="https://github.com/devicons/devicon/blob/master/icons/materialui/materialui-original.svg" title="Material UI" alt="Material UI" width="40" height="40"/> 
-  <img src="https://github.com/devicons/devicon/blob/master/icons/flutter/flutter-original.svg" title="Flutter" alt="Flutter" width="40" height="40"/> 
-  <img src="https://github.com/devicons/devicon/blob/master/icons/redux/redux-original.svg" title="Redux" alt="Redux " width="40" height="40"/> 
+  <h3> Most Proficient: </h3>
+  <img src="https://github.com/devicons/devicon/blob/master/icons/react/react-original-wordmark.svg" title="React" alt="React" width="40" height="40"/>  
   <img src="https://github.com/devicons/devicon/blob/master/icons/css3/css3-plain-wordmark.svg"  title="CSS3" alt="CSS" width="40" height="40"/> 
   <img src="https://github.com/devicons/devicon/blob/master/icons/html5/html5-original.svg" title="HTML5" alt="HTML" width="40" height="40"/> 
   <img src="https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-original.svg" title="JavaScript" alt="JavaScript" width="40" height="40"/> 
-  <img src="https://github.com/devicons/devicon/blob/master/icons/firebase/firebase-plain-wordmark.svg" title="Firebase" alt="Firebase" width="40" height="40"/> 
-  <img src="https://github.com/devicons/devicon/blob/master/icons/gatsby/gatsby-original.svg" title="Gatsby"  alt="Gatsby" width="40" height="40"/> 
   <img src="https://github.com/devicons/devicon/blob/master/icons/mysql/mysql-original-wordmark.svg" title="MySQL"  alt="MySQL" width="40" height="40"/> 
-  <img src="https://github.com/devicons/devicon/blob/master/icons/nodejs/nodejs-original-wordmark.svg" title="NodeJS" alt="NodeJS" width="40" height="40"/> 
-  <img src="https://github.com/devicons/devicon/blob/master/icons/amazonwebservices/amazonwebservices-plain-wordmark.svg" title="AWS" alt="AWS" width="40" height="40"/> 
-  <img src="https://github.com/devicons/devicon/blob/master/icons/git/git-original-wordmark.svg" title="Git" **alt="Git" width="40" height="40"/>
+  <img src="https://github.com/devicons/devicon/blob/master/icons/windows8/windows8-original.svg" title="CMD" alt="CMD" width="40" height="40"/>
+  <img src="https://github.com/devicons/devicon/blob/master/icons/figma/figma-original.svg" title="Figma" alt="Figma" width="40" height="40"/>
+  <br/>
+  
+  <h3> Moderate: </h3>
+  <img src="https://github.com/devicons/devicon/blob/master/icons/git/git-original-wordmark.svg" title="Git" alt="Git" width="40" height="40"/>
+  <img src="https://github.com/devicons/devicon/blob/master/icons/csharp/csharp-original.svg" title="C#" alt="C#" width="40" height="40"/>
+  <img src="https://github.com/devicons/devicon/blob/master/icons/docker/docker-original-wordmark.svg" title="Docker" alt="Docker" width="40" height="40"/>
+  <img src="https://github.com/devicons/devicon/blob/master/icons/typescript/typescript-original.svg" title="TypeScript" alt="TypeScript" width="40" height="40"/>
+  <img src="https://github.com/devicons/devicon/blob/master/icons/unity/unity-original.svg" title="Unity" alt="Unity" width="40" height="40"/>
+  <img src="https://github.com/devicons/devicon/blob/master/icons/sqlite/sqlite-original.svg" title="SQLite" alt="SQLite" width="40" height="40"/>
+  <img src="https://github.com/devicons/devicon/blob/master/icons/github/github-original.svg" title="GitHub" alt="GitHub" width="40" height="40"/>
+  <br/>
+  
+  <h3> Used Before: </h3>
+  <img src="https://github.com/devicons/devicon/blob/master/icons/c/c-original.svg" title="C" alt="C" width="40" height="40"/>
+  <img src="https://github.com/devicons/devicon/blob/master/icons/cplusplus/cplusplus-original.svg" title="C++" alt="C++" width="40" height="40"/>
+  <img src="https://github.com/devicons/devicon/blob/master/icons/python/python-original.svg" title="Python" alt="Python" width="40" height="40"/>
+  <img src="https://github.com/devicons/devicon/blob/master/icons/java/java-original.svg" title="Python" alt="Python" width="40" height="40"/>
 </div>
 
 ---
 
 ## 🚀 Recent Project
 
-## 🔧 Palet Colour Picker
----
+### 🎨 Palet Color Picker (WPF)
+
+A desktop application built with **WPF** (Windows Presentation Foundation) that allows users to quickly pick and manage colors, similar to the Windows Snipping Tool.  
+
+- **Backend:** C#  
+- **Framework:** WPF  
+- **Features:**  
+  - Capture colors from anywhere on the screen  
+  - Store favorite colors for quick access  
+  - Simple, intuitive UI  
+
+**Status:** Actively developed and functional as a proof of concept (there are bugs).  
+
+![Color Picker Demo](color-picker-demo.gif)
 
 ## 🚀 Current Projects
 
 ## 🔧 Code Snippet Manager
 
 A desktop application for managing and organizing code snippets efficiently.  
-Built with a modern and lightweight stack:  
+Built with a modern and lightweight stack (not lightweight to be honest but modern is true):  
 
 - **React + Vite** for a fast, responsive UI  
 - **Electron** to deliver a cross-platform desktop app  
@@ -65,8 +92,7 @@ Built with a modern and lightweight stack:
 
 ## 🌙 Moon Root
 
-An indie top-down pixel ARPG inspired by games like *Stardew Valley*.  
-Instead of farming, players invest their time into:  
+An indie top-down pixel ARPG inspired by life sims, ARPG and rogue like games. we aim to create a melting pot of these genres to create a fresh experience for players looking to venture or even cross over into these genres:  
 
 - Choosing dungeons to grind  
 - Leveling diverse skills  
@@ -75,7 +101,11 @@ Instead of farming, players invest their time into:
 Core features in development include:  
 - Dynamic **day/night cycles**  
 - Environmental effects such as **rain and weather changes**  
-- Rich pixel art style  
+- Rich pixel art style
+- Dungeons
+- World Bosses
+- End Game Areana
+- RNG Loot role out mixed with farmable loot
 
 **Development:**  
 - **Team size:** 2  
@@ -87,25 +117,11 @@ Core features in development include:
 ![MoonRoot Banner](moonrootbanner.png)
 ---
 
-## 🎨 Design & Code Style
-- Minimal, grid-based layouts  
-- Smooth UI animations (Framer Motion)  
-- Functional UX: “tools that get out of your way”  
-- Focused on **developer experience** as much as user experience  
+## 🚀 Next Projects 
+**(my next two projects lined up after i finish CBS)**
+- Compiler in GO language (i want to learn go so i thought  this would be a great introduction :) )
+- Remaster of my palet colour picker in a more lightweight language, maybe ill write it from scratch in c or something idk.
 
-description:
-
-
-
-<div style="
-  background-color: #fff9db;
-  border: 2px solid #ffcc66;
-  padding: 16px;
-  border-radius: 8px;
-  margin: 10px 0;
-">
-  🌟 This is a highlighted section with a light yellow background and orangey-yellow border.
-</div>
 
 
 
