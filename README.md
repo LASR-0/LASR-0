@@ -1,4 +1,10 @@
-<div id="header" align="center">
+<div id="header" align="center" style="
+  background-color: #fff9db;
+  border: 2px solid #ffcc66;
+  padding: 16px;
+  border-radius: 8px;
+  margin: 10px 0;
+">
   <img src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" width="100"/>
   
   <div id="badges">
@@ -35,58 +41,44 @@
 ---
 
 ## 🚀 Current Projects
-- 🗂️ **Snippet Manager** – A desktop UI app (React + Electron) for organizing and editing code snippets.  
-- ⚡ **Panels & Components** – Reusable, polished React components with animations and Tailwind styling.  
-- 🔍 **Autocomplete & Search** – Lightweight, responsive autocomplete and search bar implementations.  
+
+## 🔧 Code Snippet Manager
+
+A desktop application for managing and organizing code snippets efficiently.  
+Built with a modern and lightweight stack:  
+
+- **React + Vite** for a fast, responsive UI  
+- **Electron** to deliver a cross-platform desktop app  
+- **TypeScript** for backend classes and methods that interact with the JSON database  
+- **IPC (Inter-Process Communication)** bridges TypeScript logic → compiled JavaScript → React renderer/UI  
+
+**Status:** Incomplete but close to a functional first release 🚧  
+
+![Code Snippet Manager Demo](assets/snippet-manager-demo.gif)
 
 ---
 
-## 🛠️ Tech Stack
-- **Frontend:** React, TypeScript, Tailwind, shadcn/ui, Framer Motion, CodeMirror  
-- **Backend/DB:** Node.js, SQLite, TypeScript ORM helpers  
-- **Desktop Apps:** Electron (cross-platform builds, file handling, backup logic)  
-- **Other Tools:** Git, GitHub Actions, VS Code, npm  
+## 🌙 Moon Root
 
----
+An indie top-down pixel ARPG inspired by games like *Stardew Valley*.  
+Instead of farming, players invest their time into:  
 
-## 🎨 Design & Code Style
-- Minimal, grid-based layouts  
-- Smooth UI animations (Framer Motion)  
-- Functional UX: “tools that get out of your way”  
-- Focused on **developer experience** as much as user experience  
+- Choosing dungeons to grind  
+- Leveling diverse skills  
+- Exploring and unlocking new areas  
 
----
+Core features in development include:  
+- Dynamic **day/night cycles**  
+- Environmental effects such as **rain and weather changes**  
+- Rich pixel art style  
 
-## 📈 What I’m Learning
-- Making **desktop apps more resilient** (backups, migrations, database safety)  
-- Better state management in React apps  
-- Polishing **README designs** (like this one 👀)  
-- Exploring **dynamic GitHub READMEs** (live stats, WakaTime, and GitHub Actions)  
+**Development:**  
+- **Team size:** 2  
+  - I’m responsible for all art and sprites (world tiles, NPCs, mobs, animations, etc.)  
+  - My partner handles game development, systems, and mechanics  
+- **Status:** Early development 🌱
 
----
 
-## 📫 Let’s Connect
-- 💡 Always up for exchanging ideas about **UI/UX, code tooling, and creative React hacks**  
-- 🔗 [Your LinkedIn / Portfolio Link Here]  
-- 📧 [Your email if you’d like to share it]  
-
----
-
-⭐ *“Build things you want to use, and make them a little better each time.”*
----
-
-## 🚀 Current Projects
-- 🗂️ **Snippet Manager** – A desktop UI app (React + Electron) for organizing and editing code snippets.  
-- ⚡ **Panels & Components** – Reusable, polished React components with animations and Tailwind styling.  
-- 🔍 **Autocomplete & Search** – Lightweight, responsive autocomplete and search bar implementations.  
-
----
-
-## 🛠️ Tech Stack
-- **Frontend:** React, TypeScript, Tailwind, shadcn/ui, Framer Motion, CodeMirror  
-- **Backend/DB:** Node.js, SQLite, TypeScript ORM helpers  
-- **Desktop Apps:** Electron (cross-platform builds, file handling, backup logic)  
-- **Other Tools:** Git, GitHub Actions, VS Code, npm  
 
 ---
 
@@ -96,14 +88,19 @@
 - Functional UX: “tools that get out of your way”  
 - Focused on **developer experience** as much as user experience  
 
----
+description:
 
-## 📈 What I’m Learning
-- Making **desktop apps more resilient** (backups, migrations, database safety)  
-- Better state management in React apps  
-- Polishing **README designs** (like this one 👀)  
-- Exploring **dynamic GitHub READMEs** (live stats, WakaTime, and GitHub Actions)  
 
+
+<div style="
+  background-color: #fff9db;
+  border: 2px solid #ffcc66;
+  padding: 16px;
+  border-radius: 8px;
+  margin: 10px 0;
+">
+  🌟 This is a highlighted section with a light yellow background and orangey-yellow border.
+</div>
 
 
 
