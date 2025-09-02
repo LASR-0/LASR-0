@@ -8,7 +8,7 @@
   <img src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" width="100"/>
   
   <div id="badges">
-  <a href="your-linkedin-URL">
+  <a href="https://www.linkedin.com/in/luke-roxburgh-16b5a5344/">
     <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
   </a>
     <br/>
@@ -18,8 +18,27 @@
 
 ---
 
-## About Me:
+# Hi, I'm Luke 👋  
+Welcome to my GitHub!
 
+## About Me
+I’m passionate about programming, technology, and creativity. Outside of coding, I enjoy:  
+
+- **Painting:** Oil and acrylic  
+- **Digital art**  
+- **3D printing**  
+- **Computer building:** Especially ITX builds  
+- **Miniature painting:** Tabletop models  
+
+I also enjoy exploring:  
+
+- **Linux customization (ricing)**  
+- **Microprocessors:** Raspberry Pi and Arduino projects  
+
+## My Ambitions
+I aim to combine my interests in **3D printing** and **microprocessor programming** to create technology that interacts with sensors and the physical world.  
+
+I love learning, experimenting, and building projects that merge software and hardware in creative ways.
 
 ---
 
@@ -70,7 +89,9 @@ A desktop application built with **WPF** (Windows Presentation Foundation) that 
 
 **Status:** Actively developed and functional as a proof of concept (there are bugs).  
 
-![Color Picker Demo](color-picker-demo.gif)
+![Color Picker Demo1](PreviewCLibrary.png)
+![Color Picker Demo2](paletmain.png)
+![Color Picker Demo3](paletpview.png)
 
 ## 🚀 Current Projects
 
