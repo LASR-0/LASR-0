@@ -5,7 +5,7 @@
   border-radius: 8px;
   margin: 10px 0;
 ">
-  <img src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" width="100"/>
+  <img src="https://i.pinimg.com/originals/e0/73/71/e073716d0d0c92e002d603783a9854cd.gif" width="300"/>
   
   <div id="badges">
   <a href="https://www.linkedin.com/in/luke-roxburgh-16b5a5344/">
