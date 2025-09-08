@@ -92,6 +92,8 @@ A desktop application built with **WPF** (Windows Presentation Foundation) that 
 ![Color Picker Demo1](PreviewCLibrary.png)
 ![Color Picker Demo2](paletmain.png)
 ![Color Picker Demo3](paletpview.png)
+![Color Picker Demo3](paletgif.gif)
+
 
 ## 🚀 Current Projects
 
