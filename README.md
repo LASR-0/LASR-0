@@ -112,35 +112,6 @@ Built with a modern and lightweight stack (not lightweight to be honest but mode
 
 ![Code Snippet Manager Demo](CSB_gif.gif)
 
----
-
-## 🌙 Moon Root
-
-An indie top-down pixel ARPG inspired by life sims, ARPG and rogue like games. we aim to create a melting pot of these genres to create a fresh experience for players looking to venture or even cross over into these genres:  
-
-- Choosing dungeons to grind  
-- Leveling diverse skills  
-- Exploring and unlocking new areas  
-
-Core features in development include:  
-- Dynamic **day/night cycles**  
-- Environmental effects such as **rain and weather changes**  
-- Rich pixel art style
-- Dungeons
-- World Bosses
-- End Game Areana
-- RNG Loot role out mixed with farmable loot
-
-**Development:**  
-- **Team size:** 2  
-  - I’m responsible for all art and sprites (world tiles, NPCs, mobs, animations, etc.), Core Game Functionality Programming, UI and UX design  
-  - My partner handles game development, systems, and mechanics, mob mechanics, boss and dungeon design.  
-- **Status:** Early development 🌱
-
-
-![MoonRoot Banner](moonrootbanner.png)
----
-
 ## 🚀 Next Projects 
 **(my next two projects lined up after i finish CBS)**
 - Compiler in GO language (i want to learn go so i thought  this would be a great introduction :) )
