@@ -66,9 +66,9 @@ text{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono','
 <text x="447.6" y="329" xml:space="preserve"><tspan class="k_hobby">Tinkering</tspan><tspan class="dots"> ........ </tspan><tspan class="val">Pi, Arduino, Linux ricing</tspan></text>
 <text x="447.6" y="348" xml:space="preserve"><tspan class="k_hobby">Art</tspan><tspan class="dots"> ........... </tspan><tspan class="val">Oil, acrylic, digital, minis</tspan></text>
 <text x="447.6" y="386" xml:space="preserve"><tspan class="rule">─ </tspan><tspan class="k_stat">GitHub</tspan><tspan class="rule"> ───────────────────────────────────</tspan></text>
-<text x="447.6" y="405" xml:space="preserve"><tspan class="k_stat">Repos</tspan><tspan class="dots"> ............ </tspan><tspan class="v_stat">0</tspan><tspan class="dots"> | </tspan><tspan class="k_stat">Stars</tspan><tspan class="dots"> ............. </tspan><tspan class="v_stat">0</tspan></text>
-<text x="447.6" y="424" xml:space="preserve"><tspan class="k_stat">Commits</tspan><tspan class="dots"> .......... </tspan><tspan class="v_stat">0</tspan><tspan class="dots"> | </tspan><tspan class="k_stat">Followers</tspan><tspan class="dots"> ......... </tspan><tspan class="v_stat">0</tspan></text>
-<text x="447.6" y="443" xml:space="preserve"><tspan class="k_stat">Uptime</tspan><tspan class="dots"> .......... </tspan><tspan class="v_up">3 years, 8 months, 22 days</tspan></text>
+<text x="447.6" y="405" xml:space="preserve"><tspan class="k_stat">Repos</tspan><tspan class="dots"> ............ </tspan><tspan class="v_stat">9</tspan><tspan class="dots"> | </tspan><tspan class="k_stat">Stars</tspan><tspan class="dots"> ............. </tspan><tspan class="v_stat">3</tspan></text>
+<text x="447.6" y="424" xml:space="preserve"><tspan class="k_stat">Commits</tspan><tspan class="dots"> ........ </tspan><tspan class="v_stat">232</tspan><tspan class="dots"> | </tspan><tspan class="k_stat">Followers</tspan><tspan class="dots"> ......... </tspan><tspan class="v_stat">1</tspan></text>
+<text x="447.6" y="443" xml:space="preserve"><tspan class="k_stat">Uptime</tspan><tspan class="dots"> ........... </tspan><tspan class="v_up">6 years, 0 months, 2 days</tspan></text>
 <rect class="f1" x="447.6" y="469" width="22.8" height="14" rx="2"/>
 <rect class="f3" x="473.4" y="469" width="22.8" height="14" rx="2"/>
 <rect class="f5" x="499.2" y="469" width="22.8" height="14" rx="2"/>
