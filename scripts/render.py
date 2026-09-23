@@ -22,26 +22,31 @@ TOKEN = os.environ.get("GH_TOKEN")
 
 # ── Static profile content ────────────────────────────────────────────────
 HOST = f"luke@{USER}"
+# (title, key colour class, rows)
 SECTIONS = [
-    (None, [
+    (None, "k_id", [
         ("OS", "Arch Linux (Omarchy)"),
         ("WM", "Hyprland"),
         ("Location", "Australia"),
         ("Role", "IT Support @ KSB Australia"),
         ("Builds", "Internal tools, desktop apps"),
     ]),
-    ("Stack", [
+    ("Stack", "k_stack", [
         ("Main", "TypeScript, React, C#"),
         ("Web", "HTML, CSS, JavaScript"),
         ("Data", "MySQL, SQLite"),
         ("Tools", "Git, Docker, Electron, Figma"),
     ]),
-    ("Hobbies", [
+    ("Hobbies", "k_hobby", [
         ("Hardware", "3D printing, ITX builds"),
         ("Tinkering", "Pi, Arduino, Linux ricing"),
         ("Art", "Oil, acrylic, digital, minis"),
     ]),
 ]
+
+# neofetch-style colour strip: one swatch per class, drawn as rects.
+PALETTE = "palette"
+PALETTE_CLASSES = ["f1", "f3", "f5", "k_id", "k_hobby", "k_stack", "k_stat", "host", "v_up"]
 
 # ── Layout ────────────────────────────────────────────────────────────────
 INFO_COLS = 44          # width of the info panel in characters
@@ -58,8 +63,10 @@ THEMES = {
         "f4": "#7c77b6", "f5": "#9893cf", "f6": "#b6b2e6",
         "E": "#f4a62a", "e": "#c8701c", "p": "#4a3514",
         "c": "#7fa696", "b": "#b4cfc6",
-        "key": "#b6a8e8", "dots": "#3a3656", "val": "#e9e4f5",
-        "rule": "#433e66", "stat": "#8fb8a8", "at": "#6e6899",
+        "dots": "#3a3656", "val": "#e9e4f5", "rule": "#433e66", "at": "#6e6899",
+        "host": "#f4a62a",
+        "k_id": "#b6a8e8", "k_stack": "#8ec5b0", "k_hobby": "#e2a6d6",
+        "k_stat": "#f2877c", "v_stat": "#f6b24e", "v_up": "#f7c98b",
     },
     "light": {
         "bg": "#f4f2fa", "border": "#dcd7ee",
@@ -67,8 +74,10 @@ THEMES = {
         "f4": "#544b94", "f5": "#3d3478", "f6": "#29225c",
         "E": "#d98508", "e": "#a95a0e", "p": "#e2cfa6",
         "c": "#4f7d6c", "b": "#6e958a",
-        "key": "#5b4ea3", "dots": "#cfcae3", "val": "#28233f",
-        "rule": "#cfcae3", "stat": "#3f6f5f", "at": "#9a93c4",
+        "dots": "#cfcae3", "val": "#28233f", "rule": "#cfcae3", "at": "#9a93c4",
+        "host": "#b86a00",
+        "k_id": "#5b4ea3", "k_stack": "#2f7a60", "k_hobby": "#98458f",
+        "k_stat": "#c2463b", "v_stat": "#b86a00", "v_up": "#9a5a12",
     },
 }
 
@@ -159,32 +168,33 @@ def uptime(created_iso):
 
 # ── Info panel as coloured segments ───────────────────────────────────────
 # Each line is a list of (text, class) segments.
-def kv(key, value, width, vclass="val"):
+def kv(key, value, width, kclass="k_id", vclass="val"):
     dots = max(1, width - len(key) - len(value) - 2)
-    return [(key, "key"), (" " + "." * dots + " ", "dots"), (value, vclass)]
+    return [(key, kclass), (" " + "." * dots + " ", "dots"), (value, vclass)]
 
 
-def header(title):
-    return [("─ ", "rule"), (title, "key"), (" " + "─" * (INFO_COLS - len(title) - 3), "rule")]
+def header(title, cls):
+    return [("─ ", "rule"), (title, cls), (" " + "─" * (INFO_COLS - len(title) - 3), "rule")]
 
 
 def info_lines(stats):
-    lines = [[("luke", "key"), ("@", "at"), (USER, "val"),
+    lines = [[("luke", "host"), ("@", "at"), (USER, "val"),
               (" " + "─" * (INFO_COLS - len(HOST) - 1), "rule")]]
-    for title, rows in SECTIONS:
+    for title, kclass, rows in SECTIONS:
         if title:
-            lines += [[], header(title)]
-        lines += [kv(k, v, INFO_COLS) for k, v in rows]
+            lines += [[], header(title, kclass)]
+        lines += [kv(k, v, INFO_COLS, kclass) for k, v in rows]
 
     half = (INFO_COLS - 3) // 2
     right = INFO_COLS - 3 - half
-    pair = lambda a, b: (kv(a[0], a[1], half, "stat") + [(" | ", "dots")]
-                         + kv(b[0], b[1], right, "stat"))
+    pair = lambda a, b: (kv(a[0], a[1], half, "k_stat", "v_stat") + [(" | ", "dots")]
+                         + kv(b[0], b[1], right, "k_stat", "v_stat"))
     lines += [
-        [], header("GitHub"),
+        [], header("GitHub", "k_stat"),
         pair(("Repos", str(stats["repos"])), ("Stars", str(stats["stars"]))),
         pair(("Commits", f"{stats['commits']:,}"), ("Followers", str(stats["followers"]))),
-        kv("Uptime", uptime(stats["created"]), INFO_COLS, "stat"),
+        kv("Uptime", uptime(stats["created"]), INFO_COLS, "k_stat", "v_up"),
+        [], PALETTE,
     ]
     return lines
 
@@ -236,8 +246,13 @@ def render(theme, info):
         out.append(f'<text x="{PAD_X}" y="{y}" xml:space="preserve">'
                    f"{tspans(art_segments(text, classes))}</text>")
     for i, segs in enumerate(info):
-        if segs:
-            y = base + (info_top + i) * LINE_H
+        y = base + (info_top + i) * LINE_H
+        if segs == PALETTE:
+            sw = CHAR_W * 3
+            for j, cls in enumerate(PALETTE_CLASSES):
+                out.append(f'<rect class="{cls}" x="{info_x + j * sw:.1f}" y="{y - FONT_SIZE + 2}" '
+                           f'width="{sw - 3:.1f}" height="{FONT_SIZE}" rx="2"/>')
+        elif segs:
             out.append(f'<text x="{info_x:.1f}" y="{y}" xml:space="preserve">{tspans(segs)}</text>')
     out.append("</svg>")
     return "\n".join(out)

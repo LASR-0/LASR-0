@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="852" height="492" viewBox="0 0 852 492" role="img" aria-label="luke@LASR-0">
+<svg xmlns="http://www.w3.org/2000/svg" width="852" height="511" viewBox="0 0 852 511" role="img" aria-label="luke@LASR-0">
 <style>
 text{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono','Liberation Mono',monospace;font-size:14px;white-space:pre}
 .sp{fill:none}
@@ -14,14 +14,19 @@ text{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono','
 .p{fill:#e2cfa6}
 .c{fill:#4f7d6c}
 .b{fill:#6e958a}
-.key{fill:#5b4ea3}
 .dots{fill:#cfcae3}
 .val{fill:#28233f}
 .rule{fill:#cfcae3}
-.stat{fill:#3f6f5f}
 .at{fill:#9a93c4}
+.host{fill:#b86a00}
+.k_id{fill:#5b4ea3}
+.k_stack{fill:#2f7a60}
+.k_hobby{fill:#98458f}
+.k_stat{fill:#c2463b}
+.v_stat{fill:#b86a00}
+.v_up{fill:#9a5a12}
 </style>
-<rect x="0.5" y="0.5" width="851" height="491" rx="10" fill="#f4f2fa" stroke="#dcd7ee"/>
+<rect x="0.5" y="0.5" width="851" height="510" rx="10" fill="#f4f2fa" stroke="#dcd7ee"/>
 <text x="26" y="44" xml:space="preserve"><tspan class="sp">                                 </tspan><tspan class="f6">#</tspan></text>
 <text x="26" y="63" xml:space="preserve"><tspan class="sp">                               </tspan><tspan class="f5">*</tspan><tspan class="f6">###</tspan></text>
 <text x="26" y="82" xml:space="preserve"><tspan class="sp">                             </tspan><tspan class="f5">*</tspan><tspan class="f6">#######</tspan></text>
@@ -45,23 +50,32 @@ text{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono','
 <text x="26" y="424" xml:space="preserve"><tspan class="sp">              </tspan><tspan class="f4">+</tspan><tspan class="f6">#</tspan><tspan class="f5">*</tspan><tspan class="c">====</tspan><tspan class="f3">==</tspan><tspan class="f4">+</tspan><tspan class="f3">==</tspan><tspan class="f2">--</tspan><tspan class="f1">:::</tspan><tspan class="f0">........</tspan><tspan class="f2">-----</tspan><tspan class="f3">=</tspan><tspan class="f5">*</tspan></text>
 <text x="26" y="443" xml:space="preserve"><tspan class="sp">               </tspan><tspan class="f5">*</tspan><tspan class="f3">==</tspan><tspan class="f2">-----</tspan><tspan class="f6">#</tspan><tspan class="b">ooo</tspan><tspan class="f3">=</tspan><tspan class="f0">...............</tspan><tspan class="f2">--</tspan><tspan class="f3">=</tspan></text>
 <text x="26" y="462" xml:space="preserve"><tspan class="sp">               </tspan><tspan class="f4">+++</tspan><tspan class="f2">-</tspan><tspan class="f1">::</tspan><tspan class="f0">.</tspan><tspan class="f3">=</tspan><tspan class="f6">#</tspan><tspan class="b">oOO</tspan><tspan class="f5">*</tspan><tspan class="f0">................</tspan><tspan class="f2">-</tspan><tspan class="f3">=</tspan></text>
-<text x="447.6" y="44" xml:space="preserve"><tspan class="key">luke</tspan><tspan class="at">@</tspan><tspan class="val">LASR-0</tspan><tspan class="rule"> ────────────────────────────────</tspan></text>
-<text x="447.6" y="63" xml:space="preserve"><tspan class="key">OS</tspan><tspan class="dots"> .................... </tspan><tspan class="val">Arch Linux (Omarchy)</tspan></text>
-<text x="447.6" y="82" xml:space="preserve"><tspan class="key">WM</tspan><tspan class="dots"> ................................ </tspan><tspan class="val">Hyprland</tspan></text>
-<text x="447.6" y="101" xml:space="preserve"><tspan class="key">Location</tspan><tspan class="dots"> ......................... </tspan><tspan class="val">Australia</tspan></text>
-<text x="447.6" y="120" xml:space="preserve"><tspan class="key">Role</tspan><tspan class="dots"> ............ </tspan><tspan class="val">IT Support @ KSB Australia</tspan></text>
-<text x="447.6" y="139" xml:space="preserve"><tspan class="key">Builds</tspan><tspan class="dots"> ........ </tspan><tspan class="val">Internal tools, desktop apps</tspan></text>
-<text x="447.6" y="177" xml:space="preserve"><tspan class="rule">─ </tspan><tspan class="key">Stack</tspan><tspan class="rule"> ────────────────────────────────────</tspan></text>
-<text x="447.6" y="196" xml:space="preserve"><tspan class="key">Main</tspan><tspan class="dots"> ................. </tspan><tspan class="val">TypeScript, React, C#</tspan></text>
-<text x="447.6" y="215" xml:space="preserve"><tspan class="key">Web</tspan><tspan class="dots"> .................. </tspan><tspan class="val">HTML, CSS, JavaScript</tspan></text>
-<text x="447.6" y="234" xml:space="preserve"><tspan class="key">Data</tspan><tspan class="dots"> ......................... </tspan><tspan class="val">MySQL, SQLite</tspan></text>
-<text x="447.6" y="253" xml:space="preserve"><tspan class="key">Tools</tspan><tspan class="dots"> ......... </tspan><tspan class="val">Git, Docker, Electron, Figma</tspan></text>
-<text x="447.6" y="291" xml:space="preserve"><tspan class="rule">─ </tspan><tspan class="key">Hobbies</tspan><tspan class="rule"> ──────────────────────────────────</tspan></text>
-<text x="447.6" y="310" xml:space="preserve"><tspan class="key">Hardware</tspan><tspan class="dots"> ........... </tspan><tspan class="val">3D printing, ITX builds</tspan></text>
-<text x="447.6" y="329" xml:space="preserve"><tspan class="key">Tinkering</tspan><tspan class="dots"> ........ </tspan><tspan class="val">Pi, Arduino, Linux ricing</tspan></text>
-<text x="447.6" y="348" xml:space="preserve"><tspan class="key">Art</tspan><tspan class="dots"> ........... </tspan><tspan class="val">Oil, acrylic, digital, minis</tspan></text>
-<text x="447.6" y="386" xml:space="preserve"><tspan class="rule">─ </tspan><tspan class="key">GitHub</tspan><tspan class="rule"> ───────────────────────────────────</tspan></text>
-<text x="447.6" y="405" xml:space="preserve"><tspan class="key">Repos</tspan><tspan class="dots"> ............ </tspan><tspan class="stat">0</tspan><tspan class="dots"> | </tspan><tspan class="key">Stars</tspan><tspan class="dots"> ............. </tspan><tspan class="stat">0</tspan></text>
-<text x="447.6" y="424" xml:space="preserve"><tspan class="key">Commits</tspan><tspan class="dots"> .......... </tspan><tspan class="stat">0</tspan><tspan class="dots"> | </tspan><tspan class="key">Followers</tspan><tspan class="dots"> ......... </tspan><tspan class="stat">0</tspan></text>
-<text x="447.6" y="443" xml:space="preserve"><tspan class="key">Uptime</tspan><tspan class="dots"> .......... </tspan><tspan class="stat">3 years, 8 months, 22 days</tspan></text>
+<text x="447.6" y="44" xml:space="preserve"><tspan class="host">luke</tspan><tspan class="at">@</tspan><tspan class="val">LASR-0</tspan><tspan class="rule"> ────────────────────────────────</tspan></text>
+<text x="447.6" y="63" xml:space="preserve"><tspan class="k_id">OS</tspan><tspan class="dots"> .................... </tspan><tspan class="val">Arch Linux (Omarchy)</tspan></text>
+<text x="447.6" y="82" xml:space="preserve"><tspan class="k_id">WM</tspan><tspan class="dots"> ................................ </tspan><tspan class="val">Hyprland</tspan></text>
+<text x="447.6" y="101" xml:space="preserve"><tspan class="k_id">Location</tspan><tspan class="dots"> ......................... </tspan><tspan class="val">Australia</tspan></text>
+<text x="447.6" y="120" xml:space="preserve"><tspan class="k_id">Role</tspan><tspan class="dots"> ............ </tspan><tspan class="val">IT Support @ KSB Australia</tspan></text>
+<text x="447.6" y="139" xml:space="preserve"><tspan class="k_id">Builds</tspan><tspan class="dots"> ........ </tspan><tspan class="val">Internal tools, desktop apps</tspan></text>
+<text x="447.6" y="177" xml:space="preserve"><tspan class="rule">─ </tspan><tspan class="k_stack">Stack</tspan><tspan class="rule"> ────────────────────────────────────</tspan></text>
+<text x="447.6" y="196" xml:space="preserve"><tspan class="k_stack">Main</tspan><tspan class="dots"> ................. </tspan><tspan class="val">TypeScript, React, C#</tspan></text>
+<text x="447.6" y="215" xml:space="preserve"><tspan class="k_stack">Web</tspan><tspan class="dots"> .................. </tspan><tspan class="val">HTML, CSS, JavaScript</tspan></text>
+<text x="447.6" y="234" xml:space="preserve"><tspan class="k_stack">Data</tspan><tspan class="dots"> ......................... </tspan><tspan class="val">MySQL, SQLite</tspan></text>
+<text x="447.6" y="253" xml:space="preserve"><tspan class="k_stack">Tools</tspan><tspan class="dots"> ......... </tspan><tspan class="val">Git, Docker, Electron, Figma</tspan></text>
+<text x="447.6" y="291" xml:space="preserve"><tspan class="rule">─ </tspan><tspan class="k_hobby">Hobbies</tspan><tspan class="rule"> ──────────────────────────────────</tspan></text>
+<text x="447.6" y="310" xml:space="preserve"><tspan class="k_hobby">Hardware</tspan><tspan class="dots"> ........... </tspan><tspan class="val">3D printing, ITX builds</tspan></text>
+<text x="447.6" y="329" xml:space="preserve"><tspan class="k_hobby">Tinkering</tspan><tspan class="dots"> ........ </tspan><tspan class="val">Pi, Arduino, Linux ricing</tspan></text>
+<text x="447.6" y="348" xml:space="preserve"><tspan class="k_hobby">Art</tspan><tspan class="dots"> ........... </tspan><tspan class="val">Oil, acrylic, digital, minis</tspan></text>
+<text x="447.6" y="386" xml:space="preserve"><tspan class="rule">─ </tspan><tspan class="k_stat">GitHub</tspan><tspan class="rule"> ───────────────────────────────────</tspan></text>
+<text x="447.6" y="405" xml:space="preserve"><tspan class="k_stat">Repos</tspan><tspan class="dots"> ............ </tspan><tspan class="v_stat">0</tspan><tspan class="dots"> | </tspan><tspan class="k_stat">Stars</tspan><tspan class="dots"> ............. </tspan><tspan class="v_stat">0</tspan></text>
+<text x="447.6" y="424" xml:space="preserve"><tspan class="k_stat">Commits</tspan><tspan class="dots"> .......... </tspan><tspan class="v_stat">0</tspan><tspan class="dots"> | </tspan><tspan class="k_stat">Followers</tspan><tspan class="dots"> ......... </tspan><tspan class="v_stat">0</tspan></text>
+<text x="447.6" y="443" xml:space="preserve"><tspan class="k_stat">Uptime</tspan><tspan class="dots"> .......... </tspan><tspan class="v_up">3 years, 8 months, 22 days</tspan></text>
+<rect class="f1" x="447.6" y="469" width="22.8" height="14" rx="2"/>
+<rect class="f3" x="473.4" y="469" width="22.8" height="14" rx="2"/>
+<rect class="f5" x="499.2" y="469" width="22.8" height="14" rx="2"/>
+<rect class="k_id" x="525.0" y="469" width="22.8" height="14" rx="2"/>
+<rect class="k_hobby" x="550.8" y="469" width="22.8" height="14" rx="2"/>
+<rect class="k_stack" x="576.6" y="469" width="22.8" height="14" rx="2"/>
+<rect class="k_stat" x="602.4" y="469" width="22.8" height="14" rx="2"/>
+<rect class="host" x="628.2" y="469" width="22.8" height="14" rx="2"/>
+<rect class="v_up" x="654.0" y="469" width="22.8" height="14" rx="2"/>
 </svg>
